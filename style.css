@@ -1,0 +1,25 @@
+#calculator{
+  background-color: #1a1d24;
+  border-radius: 15px;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+button{
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  border: none;
+  background-color: #262933;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
